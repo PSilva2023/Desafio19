@@ -1,0 +1,90 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Sora:wght@600&display=swap');
+
+* {
+    text-decoration: none !important;
+}
+
+:root {
+
+    --font-primary:'Sora', sans-serif;
+}
+
+.menu {
+    gap: 66px;
+}
+
+.register {
+    width: 150px;
+    border-radius: 20px;
+    background-color: #0F9AFE;
+    font-size: 15px;
+}
+
+.card-img {
+    width: 60px;
+    height: 60;
+}
+
+.font {
+    font-family: var(--font-primary);
+}
+
+.txt-big {
+    line-height: 20px;
+    font-size: 14px;
+}
+
+.txt-litle {
+    font-size: 9px;
+}
+
+.btn-w {
+    width: 160px;
+}
+
+.img-t {
+    width: 60px;
+    height: 15px;
+}
+
+.color-card {
+    background-color: #EFF8FF;
+}
+
+.color-card1 {
+    background-color: #293145;
+}
+
+.btn-a {
+    width: 200px;
+    background-color: #0F9AFE;
+}
+
+.btn-p {
+    width: 160px;
+    font-size: 13px;
+    letter-spacing: 3px;
+    background-color: #0F9AFE;
+}
+
+.color-p {
+    color: #DBDBDB;
+}
+
+#contacts {
+    background-image: url(../images/img-footer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+
+::placeholder {
+    color: #FFF;
+}
+
+.color-h4 {
+    color: #293145;
+}
