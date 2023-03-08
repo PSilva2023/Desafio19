@@ -12,10 +12,13 @@
 </head>
 
 <body>
-    <header class="container py-3">
+    <!-- <header class="container py-3">
         <div class="row container">
             <div class="col-md-8">
-                <img src="Assets/images/img-l-header.png" alt="">
+                <img src="Assets/images/img-logo.png" alt="">
+                <button>
+                    ysadysady
+                </button>
             </div>
             <div class="col-md-2">
                 <div class="d-flex justify-content-cente align-items-center menu">
@@ -26,175 +29,188 @@
                 </div>
             </div>
         </div>
+    </header> -->
+    <header class="container">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img src="Assets/images/img-logo.png" alt=""></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav menu-h gap-5">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Funcionalidades</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">App</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Planos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Contatos</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
     </header>
     <main>
-        <section style="background-color: #EFF8FF; height: 500px;" class="d-flex justify-content-center">
+        <section class="d-flex justify-content-center py-4" style="min-height:500px; background-color: #EFF8FF;">
             <div class="row container align-items-center">
-                <div class="col-md-6 ">
-                    <h1 class="font">
-                        Rachi, <br /> é tudo que você <br /> precisa em um só lugar.
-                    </h1>
-                    <button class="btn btn-primary register font mt-4 shadow bg-body-tertiary ">Cadastrar-se</button>
+                <div class="col-md-6 mb">
+                    <h1 class="pb-4">Rachi, <br /> é tudo que você <br /> precisa em um só lugar.</h1>
+                    <button style="background-color: #0F9AFE; width: 160px; padding: 10px 5px;"
+                        class="btn btn-primary rounded-pill shadow bg-body-tertiary border-0 font2">Cadastrar-se</button>
                 </div>
-                <div class="col-md-6 text-end">
-                    <img src="Assets/images/img-r-header.png" class="img-fluid" alt="">
+                <div class="col-md-6 d-flex justify-content-end">
+                    <img class="img-fluid" src="Assets/images/img-header.png" alt="">
                 </div>
             </div>
         </section>
-        <section style="height: 500px;" class="d-flex justify-content-center py-5">
-            <div class="row container">
-                <h2 class="w-100 text-center pb-5 font">Como funciona</h2>
-                <div class="col-md-4 d-flex justify-content-center">
-                    <div class="card border border-0 d-flex justify-content-center align-items-center pb-4">
-                        <img src="Assets/images/avatar.png" class="card-img-top card-img" alt="">
-                        <div class="card-body text-center">
-                            <h5 class="card-title">Crie conexões</h5>
-                            <p style="color:#6E7275" class="card-text">
-                                Lorem ipsum dolor sit amet, <br /> consecteteu.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 d-flex justify-content-center">
-                    <div class="card border border-0 d-flex justify-content-center align-items-center">
-                        <img src="Assets/images/security.png" class="card-img-top card-img" alt="">
-                        <div class="card-body text-center">
-                            <h5 class="card-title">100% gratuito</h5>
-                            <p style="color:#6E7275" class="card-text">
-                                Lorem ipsum dolor sit amet, <br /> consecteteu.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 d-flex justify-content-center">
-                    <div class="card border border-0 d-flex justify-content-center align-items-center">
-                        <img src="Assets/images/emoji-happy.png" class="card-img-top card-img" alt="">
-                        <div class="card-body text-center">
-                            <h5 class="card-title">Compartilhamento</h5>
-                            <p style="color:#6E7275" class="card-text">
-                                Lorem ipsum dolor sit amet, <br /> consecteteu.
-                            </p>
-                        </div>
-                    </div>
+        <section class="d-flex justify-content-center align-items-center flex-column py-5 gap-5 "
+            style="min-height: 370px">
+            <div class="row container-fluid d-flex justify-content-center">
+                <div class="col-md-12 col-sm-12">
+                    <h2 class="text-center">Como funciona</h2>
                 </div>
             </div>
+            <div class="row container pt-5 d-flex">
+                <div class="col-md-4 col-sm-12 ">
+                    <div class="card align-items-center border-0">
+                        <img src="Assets/images/avatar.png" class="card-img-top img-card" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Crie conexões</h5>
+                            <p class="card-text text-center font3">Lorem ipsum dolor sit amet, <br /> consecteteu.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12 ">
+                    <div class="card align-items-center border-0">
+                        <img src="Assets/images/security.png" class="card-img-top img-card" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">100% gratuito</h5>
+                            <p class="card-text text-center font3">Lorem ipsum dolor sit amet, <br /> consecteteu.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12 ">
+                    <div class="card align-items-center border-0">
+                        <img src="Assets/images/emoji-happy.png" class="card-img-top img-card" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Compartilhamento</h5>
+                            <p class="card-text text-center font3">Lorem ipsum dolor sit amet, <br /> consecteteu.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
-        <section style="background-color: #EFF8FF; height: 500px;" class="d-flex justify-content-center py-5">
-            <div class="row container d-flex align-items-center">
-                <div class="col-md-8">
-                    <h2 class="pt-4 pb-2 font">Baixe nosso app para desfrutar mais!</h2>
-                    <p class="pt-1 fs-5">Amet in elementum nulla scelerisque dui, egestas at. Elit <br />
-                        consectetur turpis elementum amet vitae et etiam nec.<br />
-                        Varius volutpat hac adipiscing tincidunt pretium.
+        <section class="container-fluid d-flex justify-content-center align-items-center py-2"
+            style="min-height: 370px; background-color: #EFF8FF;">
+            <div class="row container align-items-center">
+                <div class="col-md-7 col-sm-12">
+                    <h2 id="h2-title" class="pb-3 font1">Baixe nosso app para desfrutar mais!</h2>
+                    <p id="p-sub-title" class="card-text font3 pb-3">Amet in elementum nulla scelerisque dui, egestas
+                        at. Elit <br />
+                        consectetur turpis elementum amet vitae et etiam nec. <br /> Varius volutpat hac
+                        adipiscing tincidunt pretium.
                     </p>
-                    <div class="d-flex gap-3 pt-3">
-                        <button style="background-color: #293145;" class="d-flex btn-dark rounded justify-content-center align-items-center px-1 py-1 gap-1 btn-w">
-                            <img src="Assets/images/google.png" alt="">
-                            <div class="d-flex flex-column text-start ps-2 g-a">
-                                <p class="txt-litle m-0">GET IT ON</p>
-                                <p class="txt-big font m-0">GOOGLE PLAY</p>
-                            </div>
+                    <p class="p-block card-text font3 pb-3">
+                        Amet in elementum nulla scelerisque dui, egestas at. Elit consectetur turpis
+                        elementum amet vitae et etiam nec.
+                    </p>
+                    <div class="d-flex gap-3">
+                        <button class="btn btn-primary border-0 py-2 btn-ga shadow bg-body-tertiary"
+                            style="max-width: 160px; background-color: #293145; border-radius: 10px;">
+                            <img src="Assets/images/button-g.png" class="img-button" alt="">
                         </button>
-                        <button style="background-color: #293145;" class="d-flex btn-dark rounded justify-content-center align-items-center px-1 py-1 gap-1 btn-w">
-                            <img src="Assets/images/apple.png" alt="">
-                            <div class="d-flex flex-column text-start ps-2 g-a">
-                                <p class="txt-litle m-0">GET IT ON</p>
-                                <p class="txt-big font m-0">APP STORE</p>
-                            </div>
+                        <button class="btn btn-primary border-0 py-2 btn-ga shadow bg-body-tertiary"
+                            style="max-width: 160px; background-color: #293145; border-radius: 10px;">
+                            <img src="Assets/images/button-a.png" class="img-button" alt="">
                         </button>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <img src="Assets/images/img-cell.png" class="img-fluid" alt="">
+                <div class="col-md-5 d-flex justify-content-end">
+                    <img src="Assets/images/img-cell.png" class="img-fluid img-cell" alt="">
                 </div>
             </div>
         </section>
-        <section class="d-flex justify-content-center align-items-center py-5">
-            <div class="row container">
-                <div class="col-md-12">
-                    <div class="text-center">
-                        <h1>Nossos Planos</h1>
-                        <P style="color: #6E7275">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec <br /> lacinia mi quis
-                            euismod
-                            ultrices.
-                        </P>
+        <section class="d-flex justify-content-center py-5 flex-column align-items-center" style="min-height: 500px;">
+            <div class="row container d-flex justify-content-center">
+                <div class="col-md-12 d-flex flex-column justify-content-center align-items-center">
+                    <h1>Nossos Planos</h1>
+                    <p class="text-center font3 card-text pt-2" style="max-width: 550px; color: #6E7275;">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec <br /> lacinia mi quis euismod
+                        ultrices.
+                    </p>
+                </div>
+            </div>
+            <div class="row container d-flex justify-content-center gap-3 pt-5">
+                <div class="col-md-4" style="width: 370px;">
+                    <div class="card border-0 align-items-center py-5 px-2 wh-card" style="background-color: #EFF8FF;">
+                        <img src="Assets/images/Bronze.png" class="card-img-top pb-4" style="width: 70px;" alt="">
+                        <img src="Assets/images/preço-28.png" class="price pt-4" alt="">
+                        <div class="card-body">
+                            <p class="card-text font3 text-center fs-6 pt-2" style="color: #6E7275; font-size: 18px;">
+                                Lorem ipsum dolor sit amet,<br /> consectetur adipiscing elit. Donec <br /> lacinia mi
+                                quis euismod ultrices.
+                            </p>
+                        </div>
+                        <button class="btn btn-primary font3 btn-card mt-4 shadow bg-body-tertiary">Assinar</button>
                     </div>
-                    <div class=" container d-flex justify-content-around pt-5">
-                        <div class="card text-center px-3 py-2 color-card border-0">
-                            <div class="card-body">
-                                <h5 class="card-title pb-4 pt-3">
-                                    <img src="Assets/images/Bronze.png" class="img-t" alt="">
-                                </h5>
-                                <h6 class="card-subtitle">
-                                    <img src="Assets/images/Preço-28.png " class="img-s pt-4 pb-3" alt="">
-                                </h6>
-                                <p class="text-secondary font pt-4">
-                                    Lorem ipsum dolor sit amet,<br /> consectetur adipiscing elit. Donec<br /> lacinia
-                                    mi
-                                    quis euismod
-                                    ultrices.
-                                </p>
-                                <button class="btn btn-primary rounded-pill btn-a font mt-5">Assinar</button>
-                            </div>
+                </div>
+                <div class="col-md-4 align-items-center" style="width: 370px;">
+                    <div class="card border-0 align-items-center py-5 px-2 wh-card" style="background-color: #293145;">
+                        <img src="Assets/images/Prata.png" class="card-img-top pb-2" style="width: 75px;" alt="">
+                        <button
+                            class="btn btn-primary font3 btn-card-c font2 mt-2 mb-3 shadow bg-body-tertiary">PREFERIDO</button>
+                        <img src="Assets/images/preço-57.png" class="price" alt="">
+                        <div class="card-body">
+                            <p class="card-text font3 text-center fs-6 pt-2" style="color: #DBDBDB; font-size: 18px;">
+                                Lorem ipsum dolor sit amet,<br /> consectetur adipiscing elit. Donec <br /> lacinia mi
+                                quis euismod ultrices.
+                            </p>
                         </div>
-                        <div class="card text-center px-3 py-2 color-card1 border-0">
-                            <div class="card-body">
-                                <h5 class="card-title pb-4">
-                                    <img src="Assets/images/Prata.png" class="img-t" alt="">
-                                </h5>
-                                <button class="btn btn-primary rounded-pill font btn-p py-1 mb-4">PREFERIDO</button>
-                                <h6 class="card-subtitle">
-                                    <img src="Assets/images/preço-57.png " class="img-s pt-3 pb-3" alt="">
-                                </h6>
-                                <p class=" font pt-4 color-p">
-                                    Lorem ipsum dolor sit amet,<br /> consectetur adipiscing elit. Donec<br /> lacinia
-                                    mi
-                                    quis euismod
-                                    ultrices.
-                                </p>
-                                <button class="btn btn-primary rounded-pill btn-a font my-4">Assinar</button>
-                            </div>
+                        <button class="btn btn-primary font3 btn-card shadow bg-body-tertiary">Assinar</button>
+                    </div>
+                </div>
+                <div class="col-md-4 align-items-center" style="width: 370px;">
+                    <div class="card border-0 align-items-center py-5 px-2 wh-card" style="background-color: #EFF8FF;">
+                        <img src="Assets/images/Ouro.png" class="card-img-top pb-4" style="width: 60px;" alt="">
+                        <img src="Assets/images/Preço-94.png" class="price pt-4" alt="">
+                        <div class="card-body">
+                            <p class="card-text font3 text-center fs-6 pt-2" style="color: #6E7275; font-size: 18px;">
+                                Lorem ipsum dolor sit amet,<br /> consectetur adipiscing elit. Donec <br /> lacinia mi
+                                quis euismod ultrices.
+                            </p>
                         </div>
-                        <div class="card text-center px-3 py-2 color-card border-0">
-                            <div class="card-body">
-                                <h5 class="card-title pb-4 pt-3">
-                                    <img src="Assets/images/Bronze.png" class="img-t " alt="">
-                                </h5>
-                                <h6 class="card-subtitle">
-                                    <img src="Assets/images/Preço-28.png " class="img-s pt-4 pb-3" alt="">
-                                </h6>
-                                <p class="text-secondary font pt-4">
-                                    Lorem ipsum dolor sit amet,<br /> consectetur adipiscing elit. Donec<br /> lacinia
-                                    mi
-                                    quis euismod
-                                    ultrices.
-                                </p>
-                                <button class="btn btn-primary rounded-pill btn-a font mt-5">Assinar</button>
-                            </div>
-                        </div>
+                        <button class="btn btn-primary font3 btn-card mt-4 shadow bg-body-tertiary">Assinar</button>
                     </div>
                 </div>
             </div>
         </section>
-        <section id="contacts" class="container-fluid d-flex justify-content-center align-items-center text-center mt-5" style="height: 400px;">
-            <div  style="width: 500px;" class="d-flex flex-column">
-                <h1 class="text-white">Contato</h1>
-                <p class="color-p fs-5 pt-3">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br />
-                    Donec lacinia mi quis euismod ultrices.
-                </p>
-                <div class="d-flex gap-5 justify-content-end mx-2">
-                    <input style="width: 280px;" type="email" class="bg-transparent border border-0 border-bottom mt-5 fs-6" placeholder="Seu melhor e-mail">
-                    <button style="width: 120px;" class="btn btn-primary rounded-pill btn-a font mt-5">Enviar</button>
+        <section id="bg-image" class="d-flex justify-content-center mt-5" style="height: 370px;">
+            <div class="row container d-flex justify-content-center">
+                <div class=" col-12 d-flex justify-content-center flex-column" style="max-width: 500px;">
+                    <h2 class="font1 text-white font-1 text-center">Contato</h2>
+                    <p class="font3 text-center fs-6" style="color:#DBDBDB">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia mi quis euismod
+                        ultrices.
+                    </p>
+                    <div class="d-flex align-items-center pt-5 gap-5 ms-5 contact">
+                        <input type="email" class="border-0 border-bottom bg-transparent input-email" style="max-width: 300px;" placeholder="Seu melhor e-mail">
+                        <button class="btn btn-md-block btn-primary btn-input shadow bg-body-tertiary">Enviar</button>
+                    </div>
                 </div>
             </div>
-        </section>
+        </section> 
+        <footer class="d-flex justify-content-center" style=" height: 100px;">
+            <div class="row text-center align-items-center">
+                <h5 class="font3 font-4 fs-5 h5-footer" style="color:#293145;">Rachi - Todos os direitos reservados.</h5>
+            </div>
+        </footer>
     </main>
-    <footer class="container-fluid d-flex justify-content-center align-items-center" style="height: 100px;">
-        <h4 class="font color-h4 fs-5">Rachi - Todos os direitos reservados.</h4>
-    </footer>
     <script type="text/javascript" src="Assets/js/jquery-3.6.3.min.js"></script>
     <script type="text/javascript" src="Assets/js/bootstrap.bundle.min.js"></script>
 </body>
